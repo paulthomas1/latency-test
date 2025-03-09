@@ -2,7 +2,7 @@ require('dotenv').config();
 const { ethers } = require('ethers');
 
 const provider = new ethers.WebSocketProvider(
-  "wss://rpc.ankr.com/somnia_testnet/ws/106bcc4c3b111020b3126e9d8a1eb5e8fef2d48a0fa315d4f4e29f1ed14e7d25"
+  //Add websocket endpoint here
 );
 
 console.log('🌐 Listening for new blocks...\n');
